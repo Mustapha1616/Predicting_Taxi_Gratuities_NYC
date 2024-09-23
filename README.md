@@ -13,3 +13,8 @@ The NYC Taxi and Limousine Commission data came from [NYC.gov](https://www.nyc.g
 <img src="images/generousvnongenerous.png" alt="Generous vs Non Generous Tippers" width="60%"/>
 </div>
 
+In connection to this, a feature was engineered to represent if a ride was taken during rush hour or not. Multiple redundant columns were dropped and reformatted into the proper data type.  
+
+## Modeling and Evaluation 
+A random forest model comprising 100 decision trees was used to determine feature importance in who would tip generously or not. The below plot shows that trip duration, distance, and the cost of a fare were the Top 3 most important factors in determining a generous tipper from a non-generous one. The overall model performed with 86% accuracy and 72% precision. 
+
