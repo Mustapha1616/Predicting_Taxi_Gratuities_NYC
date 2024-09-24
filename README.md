@@ -19,7 +19,7 @@ In connection to this, a feature was engineered to represent if a ride was taken
 A random forest model comprising 100 decision trees was used to determine feature importance in who would tip generously or not. The below plot shows that trip duration, distance, and the cost of a fare were the Top 3 most important factors in determining a generous tipper from a non-generous one. The overall model performed with 86% accuracy and 72% precision. 
 
 <div align="center">
-<img src="images/modeleval" alt="Model and Evaluation" width="60%"/>
+<img src="images/modeleval.png" alt="Model and Evaluation" width="60%"/>
 </div>
 
 ## Conclusion
